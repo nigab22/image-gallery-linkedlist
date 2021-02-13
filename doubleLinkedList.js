@@ -6,7 +6,7 @@ export class Node {
   }
 }
 
-export const DoubleLinkedList = class DoubleLinkedList {
+export const DoublyLinkedList = class DoublyLinkedList {
   constructor() {
     this.head = null;
     this.tail = null;
@@ -155,7 +155,7 @@ export const DoubleLinkedList = class DoubleLinkedList {
 };
 
 /***Test Cases****/
-// let dll = new DoubleLinkedList();
+// let dll = new DoublyLinkedList();
 // dll.push('apple');
 // dll.push('orange');
 // dll.push('mango');
