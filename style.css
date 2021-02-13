@@ -1,0 +1,77 @@
+* {
+  font-family: monospace;
+  background: black;
+  color: white;
+  padding: 0 5px 0 5px;
+}
+
+h1 {
+  margin-top: 35px;
+  font-size: 26px;
+  color: #65a8b3;
+}
+
+hr {
+  width: 100%;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  font-size: 1rem;
+  margin-bottom: 8px;
+  border: none;
+}
+
+#prev {
+  background: linear-gradient(
+    90deg,
+    rgb(175 174 193) 0%,
+    rgb(111 161 163) 0%,
+    rgb(90 186 204) 48%,
+    rgb(64 228 198) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+#next {
+  background: linear-gradient(
+    -90deg,
+    rgb(175 174 193) 0%,
+    rgb(111 161 163) 0%,
+    rgb(90 186 204) 48%,
+    rgb(64 228 198) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+#wrapper {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+#buttonwrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#viewer {
+  border-radius: 5px;
+  height: 60vh;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 26px;
+}
+
+@media screen and (max-width: 1024px) {
+  #wrapper {
+    width: 100%;
+  }
+}
