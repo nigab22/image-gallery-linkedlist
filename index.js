@@ -1,4 +1,4 @@
-import { DoublyLinkedList } from './DoublyLinkedList.js';
+import { DoublyLinkedList } from './doublyLinkedList.js';
 import { images } from './images.js';
 
 const list = new DoublyLinkedList();
