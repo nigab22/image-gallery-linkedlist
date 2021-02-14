@@ -1,7 +1,7 @@
-import { DoubleLinkedList } from './doubleLinkedList.js';
+import { DoublyLinkedList } from './DoublyLinkedList.js';
 import { images } from './images.js';
 
-const list = new DoubleLinkedList();
+const list = new DoublyLinkedList();
 
 const viewer = document.getElementById('viewer');
 const next = document.getElementById('next');
